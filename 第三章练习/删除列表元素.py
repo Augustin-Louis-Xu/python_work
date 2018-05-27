@@ -3,9 +3,9 @@ motorcycles=['one','two','threee']#python中的列表用中括号来表示，并
 del motorcycles[0]
 print(motorcycles)
 
-#删除后可以继续使用已经删除的元素..pop()用来弹出寨顶云元素，相当于删除列表的末尾元素。
+#删除后可以继续使用已经删除的元素..pop()用来弹出栈顶元素，相当于删除列表的末尾元素。
 motorcycles=['one','two','three']
-motorcycles_poped=motorcycles.pop()#将弹出的值村存储到变量中
+motorcycles_poped=motorcycles.pop()#将弹出的值存储到变量中
 print('\n'+motorcycles_poped)#核实将弹出的元素赋值到新变量中
 print(motorcycles)#核实删除的末尾元素
 
