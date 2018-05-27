@@ -3,5 +3,5 @@ print(bicycles[0])
 print(bicycles[1])
 print(bicycles[3].title())
 print(bicycles[-1].title())
-message='my friend was a '+bicycles[0].upper()+'.'
-print(message.upper())
+message='my friend was a '+bicycles[0].title()+'.'
+print(message.title())
