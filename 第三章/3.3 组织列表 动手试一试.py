@@ -1,4 +1,4 @@
-#·ÅÑÛÊÀ½ç
+#æ”¾çœ¼ä¸–ç•Œ
 destination=['Beijing','America','England','Holand','Italia','Japan']
 print(destination)
 print(sorted(destination)) 
@@ -13,6 +13,6 @@ destination.sort()
 print(destination)
 destination.sort(reverse=True)
 print(destination)
-#Íí²Í¼Î±ö£¬¼û3.2Á·Ï°
+#æ™šé¤å˜‰å®¾ï¼Œè§3.2ç»ƒä¹ 
 
 
