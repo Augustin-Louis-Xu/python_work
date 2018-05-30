@@ -48,4 +48,4 @@ for name in names:
 del names[0]#删除最后两位
 del names[0]#删除最后两位
 print(names)
-
+print('I invite '+str(len(names))+' to have dinner ,'+'There are :'+str(names)+', Heihei, I eat with myself.')
