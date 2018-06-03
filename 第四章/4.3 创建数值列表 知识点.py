@@ -26,3 +26,13 @@ squares=[]
 for value in range(1,11):
 	squares.append(value**2)
 print(squares)
+#对数字列表执行简单的统计计算
+digits=[0,1,2,3,4,5,6,7,8,9,0]
+print(min(digits))
+print(max(digits))
+print(sum(digits))
+digits=list(range(1,101))
+print(sum(digits))
+#列表解析，创建列表解析将for循环和创建新元素的代码合并成一行，让所需生成列表squares的行数大大减少。
+squares=[value**2 for value in range(1,11)]#注意，此时for语句后并没有冒号。
+print(squares)
