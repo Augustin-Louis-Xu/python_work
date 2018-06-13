@@ -1,7 +1,7 @@
 #检查特殊元素
 requested_toppings=['mushrooms','green peppers','extra cheese']
 for requested_topping in requested_toppings:
-    if requested_topping=='green peppers':
+    if requested_topping == 'green peppers':
         print('sorry,we are out of green peppers right now.')
     else:
         print('Adding '+str(requested_topping)+'.')

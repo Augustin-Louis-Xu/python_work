@@ -1,17 +1,17 @@
 #一个简单列子
 cars=['audi','bmw','subaru','toyota']
 for car in cars:
-    if car=='bmw':#此处为检查变量的值与特定值是否相等
+    if car == 'bmw':#此处为检查变量的值与特定值是否相等
         print(car.upper())
     else:
         print(car.title()) 
-    #car='Audi',car.lower()=='audi',此处将返回True,函数Lower()不会改变存储在变量car中的值，因此在比较时不会影响原来的变量。
+    #car='Audi',car.lower() == 'audi',此处将返回True,函数Lower()不会改变存储在变量car中的值，因此在比较时不会影响原来的变量。
 
 requested_topping='mushrooms'
 if requested_topping!='anchovies':
     print('\nHold the anchovies')
 answer=17
-if answer!=42:#在这里输入的答案是17，不是42.
+if answer != 42:#在这里输入的答案是17，不是42.
     print('\nThat is not the correct answer,please try again!')
 #检查多个条件，可使用and或者or将测试条件合二为一。
     #age_0=21,age_1=18,age_0>=21 and age_1>=21,此处将返回Flase.

@@ -20,41 +20,41 @@ else:
 alien_color='red'
 if alien_color == 'green':
     print('Congratulations,You get 5 points areadly because you shot aliens.')
-if alien_color!='green':
+if alien_color != 'green':
     print('Congratulations,You get 10 points areadly.')
 #5-5 外星人的颜色
 alien_color='green'
 if alien_color is 'green':#为绿色。
     print('\nCongratulations,You get 5 points areadly .')
-elif alien_color =='yellow':
+elif alien_color == 'yellow':
     print('\nCongratulations,You get 10 points areadly.')
 else:
     print('\nCongratulations,You get 145 points areadly.')
 alien_color='yellow' #为黄色。
 if alien_color is 'green':
     print('\nCongratulations,You get 5 points areadly .')
-elif alien_color =='yellow':
+elif alien_color == 'yellow':
     print('\nCongratulations,You get 10 points areadly.')
 else:
     print('\nCongratulations,You get 145 points areadly.')
 alien_color='green'
 if alien_color is 'red':#为红色
     print('\nCongratulations,You get 5 points areadly .')
-elif alien_color =='yellow':
+elif alien_color == 'yellow':
     print('\nCongratulations,You get 10 points areadly.')
 else:
     print('\nCongratulations,You get 15 points areadly.')
 #5-6 人生的不同阶段
 age=65
-if age<2:
+if age < 2:
     print('He is a baby')
-elif age<4:
+elif age < 4:
     print('He is taking a toldder.')
-elif age<13:
+elif age < 13:
     print('He is a child.')
-elif age<20:
+elif age < 20:
     print('He is a adolescent.')
-elif age<65:
+elif age < 65:
     print('He is a an adult.')
 else:
     print('\nHe is a the aged.')
