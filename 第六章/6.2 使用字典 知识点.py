@@ -34,3 +34,21 @@ else:
     x_increment = 3
 alien_0['x_position'] = alien_0['x_position'] + x_increment#外星人的更新位置。
 print('New x_position is ' + str(alien_0['x_position']) + '.')
+#删除键值对
+alien_0 = {'color':'green','point':5}
+print(alien_0)
+del alien_0['point']#注意删除的格式。
+print(alien_0)#删除的键值对永远消失了。
+#由类似对象组成的字典，存储众多对象的同一种信息。
+favorite_languages = {
+    'jane':'python',
+    'sarah':'c',
+    'edward':'ruby',
+    'phil':'python',#此处加逗号是为了在下一行添加键值对。
+    }#注意使用多行来定义字典时的格式。
+print("'Sarah's favorite languages is " +   
+    favorite_languages['sarah'].title() +
+    '.')
+    
+
+
